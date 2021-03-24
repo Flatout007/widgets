@@ -1,0 +1,61 @@
+#root {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 900;
+  
+}
+
+#root-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: -webkit-cross-fade(
+        url('https://mdn.mozillademos.org/files/8543/br.png'),
+        url('https://mdn.mozillademos.org/files/8545/tr.png'),
+        75%);
+}
+
+#hello {
+  border: 3px solid black;
+}
+
+#clock-box {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#clock-box > h1 {
+  color:ghostwhite;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  border: 3px solid black;
+  background-color: rgb(254, 155, 69);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+#clock h1 {
+  font-size: 30px;
+}
+
+#clock ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+}
